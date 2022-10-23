@@ -1,0 +1,180 @@
+body{
+    font-family: "Montserrat";
+
+}
+#title{
+    background-color: #ff4c68;
+}
+h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+
+}
+.container-fluid{
+    padding: 2em 0;
+    max-width: 80%;}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+.hero-img{
+    transform: rotate(20deg);
+    width: 68%;
+    position: relative;
+    left: 3em;
+
+
+}
+.row{
+    padding-top: 4.5em;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.download-btn{
+    margin: 1.5em 1em 0 0;
+}
+
+/* feature */
+#features{
+    background-color: #fff;
+    position: relative;
+    /* background-color: #fff; */
+    z-index: 1;
+    /* bottom: 4em; */
+    bottom: 8em;
+}
+
+.fea{
+    text-align: center;
+    padding: 5em;
+    position: relative;
+    top: 3em;
+
+}
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    /* margin-top: .5em; */
+}
+.fa-solid{
+    font-size: 3em;
+    color: #ff4c68;
+}
+.fa-solid:hover{
+    color:red;
+}
+
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    
+
+}
+#testimonials h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1em;
+    line-height: 1.5;
+
+    
+
+
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+em{
+    color: #fff;
+}
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 3em;
+}
+.press-img{
+    width: 15%;
+    margin-top: 1em;
+}
+#carouselExampleControls{
+    padding: 4em 13em;
+
+
+}
+
+/* card */
+#pricing{
+    padding: 2em;
+    text-align: center;
+
+}
+.card{
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+}
+ h2{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+p{
+    font-weight: 700;
+}
+
+/* cta */
+
+#cta{
+     background-color: #ff4c68;
+     color: #fff;
+     text-align: center;
+     padding: 3em 13em;
+}
+.cta-btn{
+    margin-top: 2em;
+    margin-right: 1em;
+
+}
+/* footer */
+#footer{
+    text-align: center;
+}
+.social-icons{
+    padding: 3em 0 2em 0;
+
+
+}
+.fa-brands{
+    margin-right: 1em;
+}
+.fa-regular{
+    margin-right: 1em;
+
+
+}
+
+/* media queries */
+@media (max-width:1000px){
+    .hero-img{
+    position: static;
+    left: 3em;
+    margin-top: 4em;
+    transform:rotate(0);
+    }
+    #title{
+        text-align: center;
+
+    }
+    #features{
+        bottom: 2em;
+
+    }
+}
